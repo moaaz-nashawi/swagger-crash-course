@@ -2,19 +2,18 @@ package com.oneoonecode.swaggercrashcourse.models;
 
 import io.swagger.v3.oas.annotations.Hidden;
 import io.swagger.v3.oas.annotations.media.Schema;
-import io.swagger.v3.oas.annotations.responses.ApiResponse;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ToDoItem {
+public class ToDoItem1 extends ToDoItem {
 
-
-    private String itemId;
+    @Hidden
     private String title;
-    private String description;
-    private Boolean completed;
+
 
 }
