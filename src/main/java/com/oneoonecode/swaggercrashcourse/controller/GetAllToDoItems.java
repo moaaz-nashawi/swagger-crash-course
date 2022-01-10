@@ -11,9 +11,9 @@ public class GetAllToDoItems {
     @GetMapping(value = "todos")
     public ResponseEntity<Object> getAllToDoItems(Boolean isCompleted) {
         ArrayList<ToDoItem> toDoItems = new ArrayList<>();
-        toDoItems.add(new ToDoItem("Item 1","Item 1 description",false));
-        toDoItems.add(new ToDoItem("Item 2","Item 2 description",true));
-        toDoItems.add(new ToDoItem("Item 3","Item 3 description",false));
+        toDoItems.add(new ToDoItem("1","Item 1","Item 1 description",false));
+        toDoItems.add(new ToDoItem("2","Item 2","Item 2 description",true));
+        toDoItems.add(new ToDoItem("3","Item 3","Item 3 description",false));
 
         return ResponseEntity.ok().body(toDoItems);
     }
