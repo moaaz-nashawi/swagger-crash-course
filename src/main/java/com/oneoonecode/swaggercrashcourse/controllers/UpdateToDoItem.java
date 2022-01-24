@@ -9,9 +9,10 @@ public class UpdateToDoItem {
     @PutMapping(value = "/todos/{toDoItemId}")
     public ResponseEntity<Object> updateToDoItem(@PathVariable String toDoItemId,
                                                  @RequestBody ToDoItem toDoItem,
-                                                 @CookieValue String canEdit,
+                                                 @CookieValue(required = false) String canEdit,
                                                  @RequestHeader Boolean fromHost,
                                                  @RequestParam Boolean isClient) {
-        return ResponseEntity.ok().body("Item Updated!");
+
+        return ResponseEntity.ok().body(toDoItem);
     }
 }

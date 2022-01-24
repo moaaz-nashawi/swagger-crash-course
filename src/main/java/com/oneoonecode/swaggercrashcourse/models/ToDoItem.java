@@ -6,6 +6,10 @@ public class ToDoItem {
     private String description;
     private Boolean completed;
 
+    public ToDoItem(){
+        super();
+    }
+
     public ToDoItem(String itemId, String title, String description, Boolean completed) {
         this.itemId = itemId;
         this.title = title;

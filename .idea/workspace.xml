@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="811a9256-6233-49d6-a346-0d1dc28935e8" name="Changes" comment="Changes" />
+    <list default="true" id="811a9256-6233-49d6-a346-0d1dc28935e8" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oneoonecode/swaggercrashcourse/controllers/CreateToDoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oneoonecode/swaggercrashcourse/controllers/CreateToDoItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oneoonecode/swaggercrashcourse/controllers/GetAllToDoItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oneoonecode/swaggercrashcourse/controllers/GetAllToDoItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oneoonecode/swaggercrashcourse/controllers/UpdateToDoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oneoonecode/swaggercrashcourse/controllers/UpdateToDoItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oneoonecode/swaggercrashcourse/models/ToDoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oneoonecode/swaggercrashcourse/models/ToDoItem.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +18,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="23BTQcXP6A1yWHfxiyWGKsyin0e" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -86,6 +95,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
