@@ -1,4 +1,4 @@
-package com.oneoonecode.swaggercrashcourse.controller;
+package com.oneoonecode.swaggercrashcourse.controllers;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;

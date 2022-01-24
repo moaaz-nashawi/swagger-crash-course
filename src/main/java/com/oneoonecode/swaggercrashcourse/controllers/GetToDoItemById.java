@@ -1,4 +1,4 @@
-package com.oneoonecode.swaggercrashcourse.controller;
+package com.oneoonecode.swaggercrashcourse.controllers;
 
 import com.oneoonecode.swaggercrashcourse.models.ToDoItem;
 import org.springframework.http.ResponseEntity;
